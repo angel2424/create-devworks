@@ -1,6 +1,6 @@
 {
   "name": "create-devworks",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "bin": {
     "create-devworks": "./index.js",
     "devworks": "./index.js"

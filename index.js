@@ -31,16 +31,14 @@ async function init() {
       message: 'What would you like to build?',
       choices: [
         { name: 'Agency Website (Astro Boilerplate)', value: 'website' },
-        { name: 'CMS Panel (DevWorks CMS)', value: 'cms' },
         { name: 'Documentation Site (DevWorks Docs)', value: 'docs' },
       ],
     },
   ]);
 
   const repos = {
-    website: 'github:your-username/devworks-website-template',
-    cms: 'github:your-username/devworks-cms-template',
-    docs: 'github:your-username/devworks-docs-template',
+    website: 'https://github.com/angel2424/devworks-site-template.git',
+    docs: 'https://github.com/angel2424/devworks-docs-template.git',
   };
 
   const selectedRepo = repos[projectType];
